@@ -3,6 +3,8 @@ A just for fun project that warns when objects are less than 6 feet away.
 ## Overview
 This is just a quickly put together project to have a little fun with social distancing. The project uses an ultrasonic distance sensor, microcontroller, and an RGB LED. The set-up is hot glued to a piece of cardboard, with a battery pack glued to the folded over part that fits in a shirt pocket. If it doesn’t detect anything within 10 feet, the LED is off. If it detects something between 8 and 10 feet, it lights up green, indicating a proper social distance is being maintained. Between 8 and 8 feet, it turns yellow, and if it detects something 6 feet or less away, it flashes red to warn both parties that the proper social distance is not being maintained.
 
+Read more, including a description of the hardware, at https://www.mcgurrin.info/robots/667/
+
 As I mentioned, it’s just for fun, and isn’t very practical, as the sensor reacts to anything in front of it, not just another person.
 ## Hardware
 * RCWL-1601 Ultrasonic Sensor
